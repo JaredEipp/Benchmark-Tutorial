@@ -1,0 +1,11 @@
+[package]
+name = "test_bench_core"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+name = "my_benchmark"
+harness = false

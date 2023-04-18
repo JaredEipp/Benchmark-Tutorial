@@ -1,0 +1,8 @@
+[package]
+name = "test-bench"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+test_bench_core = { path = "../core" }
